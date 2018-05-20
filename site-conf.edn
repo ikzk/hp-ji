@@ -1,0 +1,99 @@
+{:about-me
+ {:text [:div
+         [:p "Dr. Ji Liu is an assistant professor at University of
+                 Rochester. His research interests cover both algorithm and
+                 theory study in machine learning, optimization, and
+                 reinforcement learning, with emphasis on big data involved
+                 scenarios. "]
+         [:p "He is also interested in applying his expertise to
+                 solve real application problems, for example, image analysis,
+                 game AI, vision understanding, video surveillance, healthcare,
+                 bioinformatics, social networks, etc. He received the best
+                 paper award in several top tier AI conferences, and the IBM
+                 faculty award in 2017."]
+         [:p "He is also an awardee of MIT TR35 China 2017."]]
+  :avatar "fig/avatar.png"}
+ :news {:items [{:date "05/09/2018"
+                 :content [:p "Our groups have two papers accepted by
+                         ICML 2018. Congrats to Hanlin Tang, Xiangru Lian, and
+                         other collaborators. It is worth to mention that Hanlin
+                         Tang is the first year master student in our group and
+                         started to learn machine learning just one year ago. It
+                         is very impressive to publish a paper in the top tier
+                         ML conference. Fighting NIPS 2018! "]}
+
+                {:date "05/07/2018"
+                 :content [:p "Our groups have two papers accepted by
+                         ICML 2018. Congrats to Hanlin Tang, Xiangru Lian, and
+                         other collaborators. It is worth to mention that Hanlin
+                         Tang is the first year master student in our group and
+                         started to learn machine learning just one year ago. It
+                         is very impressive to publish a paper in the top tier
+                         ML conference. Fighting NIPS 2018! "]}
+
+                {:date "05/02/2018"
+                 :content [:p "Our groups have two papers accepted by
+                         ICML 2018. Congrats to Hanlin Tang, Xiangru Lian, and
+                         other collaborators. It is worth to mention that Hanlin
+                         Tang is the first year master student in our group and
+                         started to learn machine learning just one year ago. It
+                         is very impressive to publish a paper in the top tier
+                         ML conference. Fighting NIPS 2018! "]}
+
+                {:date "05/01/2018"
+                 :content [:p "Our groups have two papers accepted by
+                         ICML 2018. Congrats to Hanlin Tang, Xiangru Lian, and
+                         other collaborators. It is worth to mention that Hanlin
+                         Tang is the first year master student in our group and
+                         started to learn machine learning just one year ago. It
+                         is very impressive to publish a paper in the top tier
+                         ML conference. Fighting NIPS 2018! "]}
+
+                {:date "02/01/2018"
+                 :content [:p "Our groups have two papers accepted by
+                         ICML 2018. Congrats to Hanlin Tang, Xiangru Lian, and
+                         other collaborators. It is worth to mention that Hanlin
+                         Tang is the first year master student in our group and
+                         started to learn machine learning just one year ago. It
+                         is very impressive to publish a paper in the top tier
+                         ML conference. Fighting NIPS 2018! "]}
+
+                {:date "01/09/2018"
+                 :content [:p "Our groups have two papers accepted by
+                         ICML 2018. Congrats to Hanlin Tang, Xiangru Lian, and
+                         other collaborators. It is worth to mention that Hanlin
+                         Tang is the first year master student in our group and
+                         started to learn machine learning just one year ago. It
+                         is very impressive to publish a paper in the top tier
+                         ML conference. Fighting NIPS 2018! "]}]}
+ :group-members [{:name "XR Lian 1"
+                  :avatar "fig/xiangru_avatar.png"
+                  :tag "Ph.D. Student"
+                  :link "http://xrlian.com"}
+                 {:name "XR Lian 2"
+                  :avatar "fig/xiangru_avatar.png"
+                  :tag "Ph.D. Student"
+                  :link "http://xrlian.com"}]
+ :publications [{:name "Decentralized Optimization"
+                 :items [{:tags [{:name "NIPS 2017" :link "https://nips.cc/Conferences/2017"}
+                                 {:name "software" :link "https://nips.cc/Conferences/2017"}]
+                          :title "Can Decentralized Algorithms Outperform
+                         Centralized Algorithms? A Case Study for Decentralized
+                         Parallel Stochastic Gradient Descent"
+                          :title-link "https://arxiv.org/pdf/1705.09056.pdf"
+                          :authors [:p "Xiangru Lian, Ce Zhang, Huan Zhang,
+                         Cho-Jui Hsieh, Wei Zhang, and " [:b "Ji Liu"]]
+                          :note "Oral"}
+
+                         {:tags [{:name "AISTATS 2017"}]
+                          :title "Finite-sum Composition Optimization via
+                         Variance Reduced Gradient Descent"
+                          :title-link "https://arxiv.org/abs/1610.04674"
+                          :authors [:p "Xiangru Lian, Huan Zhang, Cho-Jui Hsieh,
+                         Yijun Huang, and " [:b "Ji Liu"]]}]}]
+ :teaching [{:name "Modern (Computational) Approaches to Big Data Analytics"
+             :link "http://www.cs.rochester.edu/~jliu/CSC-576-2014fall.html"
+             :tag "CSC 576, Fall 2014"}
+            {:name "Modern (Computational) Approaches to Big Data Analytics"
+             :link "http://www.cs.rochester.edu/~jliu/CSC-576-2014fall.html"
+             :tag "CSC 576, Fall 2014"}]}
