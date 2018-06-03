@@ -74,7 +74,8 @@
                   :avatar "fig/xiangru_avatar.png"
                   :tag "Ph.D. Student"
                   :link "http://xrlian.com"}]
- :publications [{:name "Decentralized Optimization"
+ :publications {:resource-link "publications.html"}
+ #_[{:name "Optimization and machine learning system"
                  :items [{:tags [{:name "NIPS 2017" :link "https://nips.cc/Conferences/2017"}
                                  {:name "software" :link "https://nips.cc/Conferences/2017"}]
                           :title "Can Decentralized Algorithms Outperform

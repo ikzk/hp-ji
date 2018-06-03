@@ -54,34 +54,41 @@
       {:on-click #(swap! display-num + 3)}
       "Read More..."]])))
 
-(defn publication-item [{:keys [title title-link authors tags note]}]
-  [:div.publication-item
-   [:div
-    (when note [:span.tag-secondary note])
-    (when tags (for [tag tags]
-                      [:a.tag-success
-                       {:href (:link tag)}
-                       (:name tag)]))]
-   [:div [:a.publication-link {:href title-link} title]]
-   [:div.authors authors]])
+;; (defn publication-item [{:keys [title title-link authors tags note]}]
+;;   [:div.publication-item
+;;    [:div
+;;     (when note [:span.tag-secondary note])
+;;     (when tags (for [tag tags]
+;;                       [:a.tag-success
+;;                        {:href (:link tag)}
+;;                        (:name tag)]))]
+;;    [:div [:a.publication-link {:href title-link} title]]
+;;    [:div.authors authors]])
+
+;; (defn publications []
+;;   (let [search-term (atom "")]
+;;    (fn []
+;;     [:div#publications
+;;      [:h1.content-subhead "Publications"]
+;;      [:form.pure-form
+;;       [:input.pure-input-1 {:type "text"
+;;                             :value @search-term
+;;                             :placeholder "Search..."
+;;                             :on-change #(reset! search-term (-> % .-target .-value))}]]
+;;      (doall
+;;       (for [category (get-in @site-data [:publications])]
+;;         [:div [:h2.content-subhead (:name category)]
+;;          (for [publication (filter (fn [{:keys [title]}]
+;;                                      (s/includes? (s/lower-case title) (s/lower-case @search-term)))
+;;                                    (:items category))]
+;;            ^{:key (:title publication)} [publication-item publication])]))])))
 
 (defn publications []
-  (let [search-term (atom "")]
-   (fn []
+  (fn []
     [:div#publications
      [:h1.content-subhead "Publications"]
-     [:form.pure-form
-      [:input.pure-input-1 {:type "text"
-                            :value @search-term
-                            :placeholder "Search..."
-                            :on-change #(reset! search-term (-> % .-target .-value))}]]
-     (doall
-      (for [category (get-in @site-data [:publications])]
-        [:div [:h2.content-subhead (:name category)]
-         (for [publication (filter (fn [{:keys [title]}]
-                                     (s/includes? (s/lower-case title) (s/lower-case @search-term)))
-                                   (:items category))]
-           ^{:key (:title publication)} [publication-item publication])]))])))
+     [:div
+      {:dangerouslySetInnerHTML {:__html (get-in @site-data [:publications :resource-link])}}]]))
 
 (defn teaching []
   (fn []
@@ -125,8 +132,10 @@
 
 (defn init []
   (go
-    (let [response (<! (http/get "site-conf.edn"))]
+    (let [response (<! (http/get "site-conf.edn"))
+          publications-html (<! (http/get "publications.html"))]
       (reset! site-data (edn/read-string (str (:body response))))
+      (swap! site-data update-in [:publications :resource-link] (constantly (:body publications-html)))
       (print @site-data)))
   (reagent/render-component
    [calling-component]
