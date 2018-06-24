@@ -67,7 +67,7 @@
                          is very impressive to publish a paper in the top tier
                          ML conference. Fighting NIPS 2018! "]}]}
  :group-members [{:name "Shupeng Gui"
-                  :avatar "fig/shupeng_avatar.png"
+                  :avatar "fig/shupeng_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Xiangru Lian"
                   :avatar "fig/xiangru_avatar.png"
@@ -83,10 +83,10 @@
                   :avatar "fig/chen_avatar.png"
                   :tag "Ph.D. Student"}
                  {:name "Jinglin Xu"
-                  :avatar "fig/jinglin_avatar.png"
+                  :avatar "fig/jinglin_avatar.jpg"
                   :tag "Visiting Student"}
                  {:name "Yawei Zhao"
-                  :avatar "fig/yawei_avatar.png"
+                  :avatar "fig/yawei_avatar.jpg"
                   :tag "Visiting Student"}]
  :publications {:resource-link "publications.html"}
  #_[{:name "Optimization and machine learning system"
