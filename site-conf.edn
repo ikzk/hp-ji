@@ -66,14 +66,28 @@
                          started to learn machine learning just one year ago. It
                          is very impressive to publish a paper in the top tier
                          ML conference. Fighting NIPS 2018! "]}]}
- :group-members [{:name "XR Lian 1"
+ :group-members [{:name "Shupeng Gui"
+                  :avatar "fig/shupeng_avatar.png"
+                  :tag "Ph.D. Student"}
+                 {:name "Xiangru Lian"
                   :avatar "fig/xiangru_avatar.png"
                   :tag "Ph.D. Student"
                   :link "http://xrlian.com"}
-                 {:name "XR Lian 2"
-                  :avatar "fig/xiangru_avatar.png"
-                  :tag "Ph.D. Student"
-                  :link "http://xrlian.com"}]
+                 {:name "Hanlin Tang"
+                  :avatar "fig/hanlin_avatar.png"
+                  :tag "Ph.D. Student"}
+                 {:name "Haichuan Yang"
+                  :avatar "fig/haichuan_avatar.png"
+                  :tag "Ph.D. Student"}
+                 {:name "Chen Yu"
+                  :avatar "fig/chen_avatar.png"
+                  :tag "Ph.D. Student"}
+                 {:name "Jinglin Xu"
+                  :avatar "fig/jinglin_avatar.png"
+                  :tag "Visiting Student"}
+                 {:name "Yawei Zhao"
+                  :avatar "fig/yawei_avatar.png"
+                  :tag "Visiting Student"}]
  :publications {:resource-link "publications.html"}
  #_[{:name "Optimization and machine learning system"
                  :items [{:tags [{:name "NIPS 2017" :link "https://nips.cc/Conferences/2017"}
