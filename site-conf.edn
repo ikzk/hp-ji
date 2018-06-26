@@ -90,7 +90,28 @@
                   :tag "Visiting Student"}
                  {:name "Yawei Zhao"
                   :avatar "fig/yawei_avatar.jpg"
-                  :tag "Visiting Student"}]
+                  :tag "Visiting Student"}
+
+                 {:name "Yijun Huang"
+                  :avatar "fig/no_avatar.jpg"
+                  :tag "Researcher"}
+
+                 {:name "Chuyang Ke"
+                  :avatar "fig/no_avatar.jpg"
+                  :tag "Alumni"}
+                 {:name "Ke Ren"
+                  :avatar "fig/no_avatar.jpg"
+                  :tag "Alumni"}
+                 {:name "Yue Wu"
+                  :avatar "fig/no_avatar.jpg"
+                  :tag "Alumni"}
+                 {:name "Yu Zhao"
+                  :avatar "fig/no_avatar.jpg"
+                  :tag "Alumni"}
+                 {:name "Zheng Zhou"
+                  :avatar "fig/no_avatar.jpg"
+                  :tag "Alumni"}
+                 ]
  :publications {:resource-link "publications.html"}
  #_[{:name "Optimization and machine learning system"
                  :items [{:tags [{:name "NIPS 2017" :link "https://nips.cc/Conferences/2017"}
