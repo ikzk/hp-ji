@@ -66,7 +66,10 @@
                          started to learn machine learning just one year ago. It
                          is very impressive to publish a paper in the top tier
                          ML conference. Fighting NIPS 2018! "]}]}
- :group-members [{:name "Shupeng Gui"
+ :group-members [{:name "Jie Zhong"
+                  :avatar "fig/no_avatar.jpg"
+                  :tag "Assistant Professor"}
+                 {:name "Shupeng Gui"
                   :avatar "fig/shupeng_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Xiangru Lian"
@@ -74,13 +77,13 @@
                   :tag "Ph.D. Student"
                   :link "http://xrlian.com"}
                  {:name "Hanlin Tang"
-                  :avatar "fig/hanlin_avatar.png"
+                  :avatar "fig/no_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Haichuan Yang"
-                  :avatar "fig/haichuan_avatar.png"
+                  :avatar "fig/no_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Chen Yu"
-                  :avatar "fig/chen_avatar.png"
+                  :avatar "fig/no_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Jinglin Xu"
                   :avatar "fig/jinglin_avatar.jpg"
