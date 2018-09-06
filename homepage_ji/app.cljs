@@ -132,8 +132,8 @@
 
 (defn init []
   (go
-    (let [response (<! (http/get "https://ikzk.github.io/hp-ji/site-conf.edn"))
-          publications-html (<! (http/get "https://ikzk.github.io/hp-ji/publications.html"))]
+    (let [response (<! (http/get "/site-conf.edn"))
+          publications-html (<! (http/get "/publications.html"))]
       (reset! site-data (edn/read-string (str (:body response))))
       (swap! site-data update-in [:publications :resource-link] (constantly (:body publications-html)))
       (print @site-data)))
