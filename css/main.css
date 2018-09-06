@@ -2,7 +2,6 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Sunflower', sans-serif;
 }
 
 a {
@@ -108,7 +107,7 @@ h3 {
 .post-description {
     padding-left: 10px;
     padding-right: 10px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: serif;
     color: #444;
     line-height: 1.3em;
 }
@@ -147,7 +146,7 @@ h3 {
     border-radius: 4px;
     padding: 5px;
     margin: 10px;
-    max-width: 150px;
+    max-width: 250px;
 }
 
 .post-image-meta {
@@ -193,7 +192,6 @@ h3 {
 .publication-item,
 .teaching-item,
 .news-item {
-    display: block;
     background: rgb(245, 250, 245);
     padding: 1.0em;
     margin-bottom: 1.0em;
@@ -201,9 +199,10 @@ h3 {
 }
 
 .publication-link {
-    display: block;
-    color: rgb(30, 30, 100);
-    font-family: 'Libre Baskerville', serif;
+    display:block;
+    margin-top: 1em;
+    color: rgb(0, 0, 0);
+    font-family: serif;
 }
 
 .authors {
@@ -273,6 +272,4 @@ h3 {
     border: 1px solid #ddd;
     border-radius: 4px;
     max-width: 150px;
-    height: 150px;
-    overflow: hidden;
 }
