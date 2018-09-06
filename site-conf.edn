@@ -15,15 +15,6 @@
   :avatar "fig/jiliu.jpg"}
  :news {:items [{:date "09/05/2018"
                  :content [:p "Our group has three papers accepted by NIPS 2018. Congrats to all authors."]}
-  :avatar "https://ikzk.github.io/hp-ji/fig/avatar.png"}
- :news {:items [{:date "05/09/2018"
-                 :content [:p "Our groups have two papers accepted by
-                         ICML 2018. Congrats to Hanlin Tang, Xiangru Lian, and
-                         other collaborators. It is worth to mention that Hanlin
-                         Tang is the first year master student in our group and
-                         started to learn machine learning just one year ago. It
-                         is very impressive to publish a paper in the top tier
-                         ML conference. Fighting NIPS 2018! "]}
 
                 {:date "05/07/2018"
                  :content [:p "Our group has two papers accepted by
@@ -65,7 +56,6 @@
                   :tag "Researcher"}
 
                  {:name "Chuyang Ke"
-<<<<<<< HEAD
                   :avatar "fig/no_avatar.jpg"
                   :tag "Alumni (Purdue, PHD candidate)"}
                  {:name "Ke Ren"
@@ -80,22 +70,6 @@
                  {:name "Zheng Zhou"
                   :avatar "fig/no_avatar.jpg"
                   :tag "Alumni (Buffalo, PHD candidate)"}
-=======
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
-                  :tag "Alumni"}
-                 {:name "Ke Ren"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
-                  :tag "Alumni"}
-                 {:name "Yue Wu"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
-                  :tag "Alumni"}
-                 {:name "Yu Zhao"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
-                  :tag "Alumni"}
-                 {:name "Zheng Zhou"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
-                  :tag "Alumni"}
->>>>>>> aaeb0e348d505c3ff519bc382096988262023322
                  ]
  :publications {:resource-link "publications.html"}
  #_[{:name "Optimization and machine learning system"
