@@ -12,7 +12,7 @@
                  paper award in several top tier AI conferences, and the IBM
                  faculty award in 2017."]
          [:p "He is also an awardee of MIT TR35 China 2017."]]
-  :avatar "fig/avatar.png"}
+  :avatar "https://ikzk.github.io/hp-ji/fig/avatar.png"}
  :news {:items [{:date "05/09/2018"
                  :content [:p "Our groups have two papers accepted by
                          ICML 2018. Congrats to Hanlin Tang, Xiangru Lian, and
@@ -67,49 +67,49 @@
                          is very impressive to publish a paper in the top tier
                          ML conference. Fighting NIPS 2018! "]}]}
  :group-members [{:name "Jie Zhong"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
                   :tag "Assistant Professor"}
                  {:name "Shupeng Gui"
-                  :avatar "fig/shupeng_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/shupeng_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Xiangru Lian"
-                  :avatar "fig/xiangru_avatar.png"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/xiangru_avatar.png"
                   :tag "Ph.D. Student"
                   :link "http://xrlian.com"}
                  {:name "Hanlin Tang"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Haichuan Yang"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Chen Yu"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Jinglin Xu"
-                  :avatar "fig/jinglin_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/jinglin_avatar.jpg"
                   :tag "Visiting Student"}
                  {:name "Yawei Zhao"
-                  :avatar "fig/yawei_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/yawei_avatar.jpg"
                   :tag "Visiting Student"}
 
                  {:name "Yijun Huang"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
                   :tag "Researcher"}
 
                  {:name "Chuyang Ke"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
                   :tag "Alumni"}
                  {:name "Ke Ren"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
                   :tag "Alumni"}
                  {:name "Yue Wu"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
                   :tag "Alumni"}
                  {:name "Yu Zhao"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
                   :tag "Alumni"}
                  {:name "Zheng Zhou"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
                   :tag "Alumni"}
                  ]
  :publications {:resource-link "publications.html"}
