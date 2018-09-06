@@ -244,13 +244,13 @@ var f__7848__auto__ = (function (){var switch__7745__auto__ = ((function (c__784
 return (function (state_10595){
 var state_val_10596 = (state_10595[(1)]);
 if((state_val_10596 === (1))){
-var inst_10576 = cljs_http.client.get("/site-conf.edn");
+var inst_10576 = cljs_http.client.get("site-conf.edn");
 var state_10595__$1 = state_10595;
 return cljs.core.async.impl.ioc_helpers.take_BANG_(state_10595__$1,(2),inst_10576);
 } else {
 if((state_val_10596 === (2))){
 var inst_10578 = (state_10595[(2)]);
-var inst_10579 = cljs_http.client.get("/publications.html");
+var inst_10579 = cljs_http.client.get("publications.html");
 var state_10595__$1 = (function (){var statearr_10597 = state_10595;
 (statearr_10597[(7)] = inst_10578);
 
