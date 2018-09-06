@@ -56,19 +56,19 @@
                   :tag "Researcher"}
 
                  {:name "Chuyang Ke"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/fig/no_avatar.jpg"
                   :tag "Alumni (Purdue, PHD candidate)"}
                  {:name "Ke Ren"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/fig/no_avatar.jpg"
                   :tag "Alumni (U. of Pittsburgh, PHD candidate)"}
                  {:name "Yue Wu"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/fig/no_avatar.jpg"
                   :tag "Alumni (UC-Davis, PHD candidate)"}
                  {:name "Yu Zhao"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/fig/no_avatar.jpg"
                   :tag "Visiting Student"}
                  {:name "Zheng Zhou"
-                  :avatar "fig/no_avatar.jpg"
+                  :avatar "https://ikzk.github.io/hp-ji/fig/fig/no_avatar.jpg"
                   :tag "Alumni (Buffalo, PHD candidate)"}
                  ]
  :publications {:resource-link "publications.html"}
