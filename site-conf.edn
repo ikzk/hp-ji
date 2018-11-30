@@ -11,7 +11,7 @@
                  bioinformatics, social networks, etc. He received the best
                  paper award in several top tier AI conferences, and the IBM
                  faculty award in 2017."]
-         [:p "He is also an awardee of MIT TR35 China 2017."]]
+         [:p "He is also an awardee of MIT TR35 China 2018."]]
   :avatar "https://ikzk.github.io/hp-ji/fig/jiliu.jpg"}
  :news {:items [{:date "09/05/2018"
                  :content [:p "Our group has three papers accepted by NIPS 2018. Congrats to all authors."]}
