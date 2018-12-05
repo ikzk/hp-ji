@@ -13,7 +13,14 @@
                  faculty award in 2017."]
          [:p "He is also an awardee of MIT TR35 China 2018."]]
   :avatar "https://ikzk.github.io/hp-ji/fig/jiliu.jpg"}
- :news {:items [{:date "09/05/2018"
+ :news {:items [
+ 		{:date "12/2/2018"
+                 :content [:p "Participate NIPS 2018 at Montreal."]}
+ 
+ 		{:date "11/20/2018"
+                 :content [:p "Serve to a PC or SPC in several top AI conferences, AAAI, ICLR, and AISTATS."]}
+	
+ 		{:date "09/05/2018"
                  :content [:p "Our group has three papers accepted by NIPS 2018. Congrats to all authors."]}
 
                 {:date "05/07/2018"
