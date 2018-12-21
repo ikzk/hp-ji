@@ -16,7 +16,10 @@
  :news {:items [
                 {:date "12/20/2018"
                  :content [:p "We have two papers accepted by ICLR 2019. Congrats to Haichuan Yang and other authors."]}
-                 
+
+                {:date "12/2/2018"
+                 :content [:p "Participate NIPS 2018 at Montreal."]}
+
  		{:date "12/2/2018"
                  :content [:p "Participate NIPS 2018 at Montreal."]}
  
