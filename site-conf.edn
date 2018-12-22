@@ -14,6 +14,12 @@
          [:p "He is also an awardee of MIT TR35 China 2018."]]
   :avatar "https://ikzk.github.io/hp-ji/fig/jiliu.jpg"}
  :news {:items [
+                {:date "12/22/2018"
+                 :content [:p "We have two papers accepted by AISTATS 2019. Congrats to Chen Yu, and Xiangru Lian, and other authors."]}
+
+                {:date "12/21/2018"
+                 :content [:p "Our paper 'Fast Unsupervised Location Category Inference from Highly Inaccurate Mobility Data' accepted by SDM 2019. Congrats to all authors."]}
+
                 {:date "12/20/2018"
                  :content [:p "We have two papers accepted by ICLR 2019. Congrats to Haichuan Yang and other authors."]}
 
