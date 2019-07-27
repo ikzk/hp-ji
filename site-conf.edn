@@ -15,7 +15,7 @@
   :avatar "https://ikzk.github.io/hp-ji/fig/jiliu.jpg"}
  :news {:items [
                 {:date "07/21/2019"
-                 :content [:p "Our paper "Optimal Expert Knowledge Elicitation for Bayesian Network Structure Identification" collaborating with Professor Huang from UW received the runner up for the best paper (annual) award at IEEE Transactions on Automation Science and Engineering."]}
+                 :content [:p "Our paper "Optimal Expert Knowledge Elicitation for Bayesian Network Structure Identification" collaborating with Professor Shuai Huang from UW received the runner up for the best paper (annual) award at IEEE Transactions on Automation Science and Engineering."]}
 
                 {:date "04/21/2019"
                  :content [:p "Two papers are accepted by ICML 2019. Congratulations to Hanlin, Chen, Xiangru, and other authors."]}
