@@ -1,6 +1,6 @@
 {:about-me
  {:text [:div
-         [:p "Dr. Ji Liu is an assistant professor at University of
+         [:p "Dr. Ji Liu is an adjunct faculty at University of
                  Rochester. His research interests cover both algorithm and
                  theory study in machine learning, optimization, and
                  reinforcement learning, with emphasis on big data involved
