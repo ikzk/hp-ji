@@ -14,6 +14,12 @@
          [:p "He is also an awardee of MIT TR35 China 2018."]]
   :avatar "https://ikzk.github.io/hp-ji/fig/jiliu.jpg"}
  :news {:items [
+ 		{:date "02/20/2020"
+                 :content [:p "Two papers are accepted by CVPR 2020. Congratulations all authors. Welcome to Seattle."]}
+                 
+                 {:date "01/20/2020"
+                 :content [:p "One RL paper is accepted as an oral paper by ICLR 2020. Congratulations to all authors, especially Anji Liu -- my intern student at Kwai Inc."]}
+                 
  		{:date "09/04/2019"
                  :content [:p "Fours papers are accepted by NeurIPS 2019. Congratulations all authors. Too much surprise from NeurIPS this year."]}
  
