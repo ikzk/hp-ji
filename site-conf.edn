@@ -12,7 +12,7 @@
                  paper award in several top tier AI conferences, and the IBM
                  faculty award in 2017."]
          [:p "He is also an awardee of MIT TR35 China 2018."]]
-  :avatar "https://ikzk.github.io/hp-ji/fig/jiliu.jpg"}
+  :avatar "https://jiliu-ml.org/fig/jiliu.jpg"}
  :news {:items [
  		{:date "02/20/2020"
                  :content [:p "Two papers are accepted by CVPR 2020. Congratulations all authors. Welcome to Seattle."]}
@@ -60,49 +60,49 @@
                          ML conference. Fighting NIPS 2018! "]}
  ]}
  :group-members [{:name "Jie Zhong"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/no_avatar.jpg"
                   :tag "Assistant Professor"}
                  {:name "Shupeng Gui"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/shupeng_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/shupeng_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Xiangru Lian"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/xiangru_avatar.png"
+                  :avatar "https://jiliu-ml.org/fig/xiangru_avatar.png"
                   :tag "Ph.D. Student"
                   :link "http://xrlian.com"}
                  {:name "Hanlin Tang"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/no_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Haichuan Yang"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/no_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Chen Yu"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/no_avatar.jpg"
                   :tag "Ph.D. Student"}
                  {:name "Jinglin Xu"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/jinglin_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/jinglin_avatar.jpg"
                   :tag "Visiting Student"}
                  {:name "Yawei Zhao"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/yawei_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/yawei_avatar.jpg"
                   :tag "Visiting Student"}
 
                  {:name "Yijun Huang"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/no_avatar.jpg"
                   :tag "Researcher"}
 
                  {:name "Chuyang Ke"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/no_avatar.jpg"
                   :tag "Alumni (Purdue, PHD candidate)"}
                  {:name "Ke Ren"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/no_avatar.jpg"
                   :tag "Alumni (U. of Pittsburgh, PHD candidate)"}
                  {:name "Yue Wu"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/no_avatar.jpg"
                   :tag "Alumni (UC-Davis, PHD candidate)"}
                  {:name "Yu Zhao"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/no_avatar.jpg"
                   :tag "Visiting Student"}
                  {:name "Zheng Zhou"
-                  :avatar "https://ikzk.github.io/hp-ji/fig/no_avatar.jpg"
+                  :avatar "https://jiliu-ml.org/fig/no_avatar.jpg"
                   :tag "Alumni (Buffalo, PHD candidate)"}
                  ]
  :publications {:resource-link "publications.html"}
